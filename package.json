@@ -22,6 +22,10 @@
                 "path": "./snippets/html_snippets.code-snippets"
             },
             {
+                "language": "css",
+                "path": "./snippets/css_snippets.code-snippets"
+            },
+            {
                 "language": "javascript",
                 "path": "./snippets/js_snippets.code-snippets"
             },

@@ -22,5 +22,24 @@
             ""
         ],
         "description": "Prints with std::cout"
+    },
+    "boilerplate": {
+        "prefix": "!main",
+        "body": [
+            "/* ",
+            "* ${1:Project} by ${2:Andrew Li}",
+            "* Description: ${3:Project description}",
+            "*/ ",
+            "#include <iostream>",
+            "",
+            "${4:using namespace std;}",
+            "",
+            "int main() {",
+            "    ${5}",
+            "    return 0;",
+            "}",
+            ""
+        ],
+        "description": "Boilerplate"
     }
 }

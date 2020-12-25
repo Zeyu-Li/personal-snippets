@@ -6,5 +6,23 @@
             ""
         ],
         "description": "Prints with printf"
+    },
+    "boilerplate": {
+        "prefix": "!main",
+        "body": [
+            "/* ",
+            "* ${1:Project} by ${2:Andrew Li}",
+            "* Description: ${3:Project description}",
+            "*/ ",
+            "#include <stdio.h>",
+            "",
+            "",
+            "int main() {",
+            "    ${4}",
+            "    return 0;",
+            "}",
+            ""
+        ],
+        "description": "Boilerplate"
     }
 }
