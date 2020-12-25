@@ -43,3 +43,12 @@ A bunch of my personal snippets for all sorts of languages!
 
 Initial release
 
+## Installing Locally
+
+For Windows users:
+
+1. Go to your user directory, ie. `C:\Users\$userName$`
+2. Go to `.vscode\extensions`
+3. Paste the entirety of this folder inside
+4. Restart VS Code
+5. Done! 🥳
