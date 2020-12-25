@@ -1,13 +1,13 @@
 {
-    "name": "vscode-prints",
-    "displayName": "vscode prints",
-    "description": "Print snippets in multiple languages so you don't have to type them",
+    "name": "personal-snippets",
+    "displayName": "Personal Snippets",
+    "description": "Tons of snippets for all different kinds of languages!",
     "version": "1.0.0",
     "publisher": "Andrew Li",
     "icon": "img/logo.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Zeyu-Li/vscode-prints"
+        "url": "https://github.com/Zeyu-Li/personal-snippets"
     },
     "engines": {
         "vscode": "^1.52.0"
@@ -17,6 +17,10 @@
     ],
     "contributes": {
         "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html_snippets.code-snippets"
+            },
             {
                 "language": "javascript",
                 "path": "./snippets/js_snippets.code-snippets"
