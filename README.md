@@ -1,9 +1,13 @@
-# Visual Studio Prints Extension
+# VS-Code Personal Snippets
 
-Tired of writing print statements? Well this extension has print snippets in multiple languages so you don't have to type them!
+A bunch of my personal snippets for all sorts of languages!
 
 ## Languages
 
+* HTML
+  * `!main` - boilerplate
+* CSS
+  * `!t` - transitions
 * JavaScript
   * `!p` - `console.log`
   * `!d` - `console.debug`
@@ -13,19 +17,22 @@ Tired of writing print statements? Well this extension has print snippets in mul
   * Same as JavaScript
 * Python
   * `!p` - `print`
+  * `!main` - boilerplate
 * Lua
   * `!p` - `print`
 * C
   * `!p` - `printf`
+  * `!main` - boilerplate
 * C++
   * `!p` - `printf`
   * `!c` - `cout` (with endline at the end)
   * `!sc` - `std::cout` (with endline)
+  * `!main` - boilerplate
 * C#
   * `!p` - `Console.WriteLine`
-* Shell
+* Shell/ShellScript
   * `!p` - `echo `
-* Powershell
+* PowerShell
   * `!p` - `echo `
 
 <!-- ## Extension Settings -->
@@ -36,8 +43,3 @@ Tired of writing print statements? Well this extension has print snippets in mul
 
 Initial release
 
-## Resources
-
-https://code.visualstudio.com/api/get-started/your-first-extension
-
-https://www.youtube.com/watch?v=srwsnNhiqv8&ab_channel=TraversyMedia
