@@ -11,5 +11,12 @@
             ""
         ],
         "description": "transition"
+    },
+    "important": {
+        "prefix": "!i",
+        "body": [
+            "!important"
+        ],
+        "description": "important"
     }
 }
