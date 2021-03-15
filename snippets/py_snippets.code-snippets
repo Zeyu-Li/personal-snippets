@@ -26,6 +26,19 @@
         ],
         "description": "Boilerplate"
     },
+    "skinny boilerplate": {
+        "prefix": "!smain",
+        "body": [
+            "def main():",
+            "    ${1}",
+            "    return",
+            "",
+            "if __name__ == \"__main__\":",
+            "    main()",
+            ""
+        ],
+        "description": "Boilerplate"
+    },
     "range": {
         "prefix": "!range",
         "body": [
@@ -34,5 +47,5 @@
             ""
         ],
         "description": "range based for loop"
-    }
+    },
 }
