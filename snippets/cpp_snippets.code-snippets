@@ -10,7 +10,7 @@
     "cout": {
         "prefix": "!c",
         "body": [
-            "cout << ${1} << '\n';",
+            "cout << ${1} << '\\n';",
             ""
         ],
         "description": "Prints with cout"
