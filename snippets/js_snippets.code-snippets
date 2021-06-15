@@ -2,7 +2,7 @@
     "Console logs": {
         "prefix": "!p",
         "body": [
-            "console.log(${1});",
+            "console.log(${1})",
             ""
         ],
         "description": "Prints with console.log"
@@ -10,7 +10,7 @@
     "Console debugs": {
         "prefix": "!d",
         "body": [
-            "console.debug(${1});",
+            "console.debug(${1})",
             ""
         ],
         "description": "Debugs with console.debug"
@@ -18,7 +18,7 @@
     "Console errors": {
         "prefix": "!e",
         "body": [
-            "console.error(${1});",
+            "console.error(${1})",
             ""
         ],
         "description": "Prints error with console.error"
@@ -26,7 +26,7 @@
     "Console warns": {
         "prefix": "!w",
         "body": [
-            "console.warn(${1});",
+            "console.warn(${1})",
             ""
         ],
         "description": "Prints warning with console.warn"
