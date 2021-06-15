@@ -34,6 +34,10 @@
                 "path": "./snippets/ts_snippets.code-snippets"
             },
             {
+                "language": "typescriptreact",
+                "path": "./snippets/tsx_snippets.code-snippets"
+            },
+            {
                 "language": "lua",
                 "path": "./snippets/lua_snippets.code-snippets"
             },

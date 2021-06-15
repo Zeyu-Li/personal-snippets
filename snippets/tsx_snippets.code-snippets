@@ -2,8 +2,7 @@
     "Console logs": {
         "prefix": "!p",
         "body": [
-            "console.log(${1});",
-            ""
+            "console.log(${1:Print});"
         ],
         "description": "Prints with console.log"
     },
@@ -37,7 +36,7 @@
             "import React, {useState, } from 'react'",
             "",
             "",
-            "export const Component = () => {",
+            "export const Component: React.FC = () => {",
             "",
             "    return (",
             "        <${1}>",
@@ -47,5 +46,26 @@
             ""
         ],
         "description": "React snippet"
+    },
+    "ReactProp": {
+        "prefix": "!react props",
+        "body": [
+            "import React, {useState, } from 'react'",
+            "",
+            "",
+            "interface Props {",
+            "    ",
+            "}",
+            "",
+            "export const Component: React.FC<Props> = () => {",
+            "",
+            "    return (",
+            "        <${1}>",
+            "        </${1}>",
+            "    )",
+            "}",
+            ""
+        ],
+        "description": "React snippet with Props"
     }
 }
