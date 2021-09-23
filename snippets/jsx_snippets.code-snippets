@@ -1,0 +1,67 @@
+{
+    "Console logs": {
+        "prefix": "!p",
+        "body": [
+            "console.log(${1:Print})"
+        ],
+        "description": "Prints with console.log"
+    },
+    "Console debugs": {
+        "prefix": "!d",
+        "body": [
+            "console.debug(${1})",
+            ""
+        ],
+        "description": "Debugs with console.debug"
+    },
+    "Console errors": {
+        "prefix": "!e",
+        "body": [
+            "console.error(${1})",
+            ""
+        ],
+        "description": "Prints error with console.error"
+    },
+    "Console warns": {
+        "prefix": "!w",
+        "body": [
+            "console.warn(${1})",
+            ""
+        ],
+        "description": "Prints warning with console.warn"
+    },
+    "React": {
+        "prefix": "!react",
+        "body": [
+            "import React, {useState, } from 'react'",
+            "",
+            "",
+            "export const Component = () => {",
+            "",
+            "    return (",
+            "        <${1}>",
+            "        </${1}>",
+            "    )",
+            "}",
+            ""
+        ],
+        "description": "React snippet"
+    },
+    "ReactProp": {
+        "prefix": "!react props",
+        "body": [
+            "import React, {useState, } from 'react'",
+            "",
+            "",
+            "export const Component = () => {",
+            "",
+            "    return (",
+            "        <${1}>",
+            "        </${1}>",
+            "    )",
+            "}",
+            ""
+        ],
+        "description": "React snippet with Props"
+    }
+}

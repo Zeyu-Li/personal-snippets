@@ -30,6 +30,10 @@
                 "path": "./snippets/js_snippets.code-snippets"
             },
             {
+                "language": "javascriptreact",
+                "path": "./snippets/jsx_snippets.code-snippets"
+            },
+            {
                 "language": "typescript",
                 "path": "./snippets/ts_snippets.code-snippets"
             },
