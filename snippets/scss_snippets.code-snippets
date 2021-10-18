@@ -1,0 +1,22 @@
+{
+    "transition": {
+        "prefix": "!t",
+        "body": [
+            "${1:.transition} {",
+            "    transition: ${2:.2}s;",
+            "    -moz-transition: ${2:.2}s;",
+            "    -webkit-transition: ${2:.2}s;",
+            "    -o-transition: ${2:.2}s;",
+            "}",
+            ""
+        ],
+        "description": "transition"
+    },
+    "important": {
+        "prefix": "!i",
+        "body": [
+            "!important"
+        ],
+        "description": "important"
+    }
+}
